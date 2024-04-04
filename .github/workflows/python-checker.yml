@@ -10,9 +10,9 @@ name: Run Linter/Coverage Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "workflow_test" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "workflow_test" ]
 
 permissions:
   contents: read
